@@ -2,17 +2,39 @@
 font-family: sans-serif;
 display: block;
 text-align: center;
-margin-top: 100px;
         }
     img {
-     max-width: 30%;
+     margin-top: 80px;
+     max-width: 20%;
     }
     input {
         border-radius: 20px;
         padding: 10px 15px;
-        border: thin solid rgba(0,0,0,0.1);
+        border: thin solid rgba(0, 0, 0, 0.1);
+    }
+    input:hover {
+        box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.25);
+    }
+    .text-row {
+        min-width: 500px;
     }
     .input-button {
         border-radius: 10px;
         border: hidden;
+        margin: 20px;
+    }
+    .buttons {
+        display: flex;
+        justify-content: end;
+        margin: 10px;
+
+    }
+    a {
+        margin: 15px;
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+    }
+    a:hover {
+        box-shadow: 0 1px 0 0 rgb(0, 0, 0);
     }
