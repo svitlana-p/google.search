@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,22 +25,18 @@
         <p>Як це зробити в полі пошуку</p>
     </div>
     <div class="search-tab">
-        <div class="container">
-    <p>усі ці слова:</p>
-    <p>точне слово або фразу:</p>
-    <p>будь-яке з цих слів:</p>
-    <p>жодне з цих слів:</p>
-    </div>
+        
     <div>
     <form action="https://google.com/search">
-        <input class="text-row" type="text" name="as_q">
-        <br>
-        <input class="text-row" type="text" name="as_epq">
-        <br>
-        <input class="text-row" type="text" name="as_oq">
-        <br>
-        <input class="text-row" type="text" name="as_eq">
-        <br>
+        <label for="all-words">усі ці слова:</label> 
+        <input class="text-row" id="all-words" type="text" name="as_q">
+        <label for="one-word">точне слово або фразу:</label>
+        <input class="text-row" id="one-word" type="text" name="as_epq">
+        <label for="anyone-word">будь-яке з цих слів:</label>
+        <input class="text-row" id="anyone-word" type="text" name="as_oq">
+        <label for="none-word">жодне з цих слів:</label>
+        <input class="text-row" id="none-word" type="text" name="as_eq">
+        <div></div>
         <input id="input-button" type="submit" value="Розширений пошук">
     </form>
     </div>

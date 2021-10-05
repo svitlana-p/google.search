@@ -1,11 +1,13 @@
     body {
 font-family: sans-serif;
+max-width: 1200px;
+margin: auto;
 display: block;
 text-align: center;
         }
     img {
      margin-top: 80px;
-     max-width: 20%;
+     max-width: 30%;
     }
     input {
         border-radius: 20px;
