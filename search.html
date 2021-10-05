@@ -1,24 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="shortcut icon" href="g.png" type="image/png">
 </head>
+
 <body>
-    <div class="buttons">
-        <a href="index.html">На головну</a>
-        
+    <header>
+        <div>
+            <img src="google_logo.png" alt="google logo">
+        </div>
+        <div class="buttons">
+            <a href="index.html">На головну</a>
+        </div>
+    </header>
+    <h1>Розширений пошук</h1>
+    <hr>
+    <div class="header-tab">
+        <p>Знайти сторінки, що містять...</p>
+        <p>Як це зробити в полі пошуку</p>
+    </div>
+    <div class="search-tab">
+        <div class="container">
+    <p>усі ці слова:</p>
+    <p>точне слово або фразу:</p>
+    <p>будь-яке з цих слів:</p>
+    <p>жодне з цих слів:</p>
     </div>
     <div>
-        <img src="google_logo.png" alt="google logo">
-    </div>
     <form action="https://google.com/search">
-        <input class="text-row" type="text" name="q">
+        <input class="text-row" type="text" name="as_q">
         <br>
-        <input class="input-button" type="submit" value="Розширений пошук Google">
+        <input class="text-row" type="text" name="as_epq">
+        <br>
+        <input class="text-row" type="text" name="as_oq">
+        <br>
+        <input class="text-row" type="text" name="as_eq">
+        <br>
+        <input id="input-button" type="submit" value="Розширений пошук">
     </form>
+    </div>
+    <div class="container">
+    <p>Введіть важливі слова: триколірний рет-тер’єр</p>
+    <p>Візьміть точні слова в лапки: "рет-тер’єр"</p>
+    <p>Введіть OR між усіма потрібними словами: мініатюрні OR стандартні</p>
+    <p>Поставте знак мінус перед небажаними словами: -гризун, -"Джек Рассел"</p>
+    </div>
+    </div>
+
 </body>
+
 </html>
