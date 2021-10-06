@@ -5,7 +5,7 @@ body {
     }
         img {
         display: block;
-        width:20%;
+        width:50%;
         }
         .buttons {
             display: flex;
@@ -21,16 +21,13 @@ body {
         a:hover {
             box-shadow: 0 1px 0 0 rgb(0, 0, 0);
         }
-    header, .header-tab {
-        display: grid;
-        grid-template-columns: 3fr 2fr;
-    }
+    
     
     h1 {
         color: rgb(241, 48, 48);
         font-size: 22px;
         font-weight: lighter;
-        margin-left: 30px;
+        
     }
     .search-tab {
         display: flex;
@@ -44,10 +41,7 @@ body {
         border:thin solid rgb(0, 0, 0, 0.2);
         padding: 8px;
     }
-    .container p {
-        padding: 6px;
-        margin: 8px;
-    }
+    
     #input-button {
 background-color: rgb(95, 130, 233);
 color: white;
@@ -55,18 +49,19 @@ padding: 10px;
 border: thin rgb(95, 130, 233);
 max-width: 150px;
 border-radius: 4%;
-margin-left: 200px;
+margin-left: 300px;
 }
-form {
+form, header, .header-tab {
  display: grid;
- grid-template-columns: 1fr 1fr;
-}
+ grid-template-columns: 1fr 2fr 2fr;
+ }
+ label {
+     padding-left: 14px;
+     padding-top: 20px;
+ }
+ form p {
+     padding-top: 10px;
+ }
 form input {
-    margin: 5px;
-}
-@media (min-width:900px) {
-    .text-row {
-        min-width: 350px;
-    }
-    
+    margin: 20px;
 }
